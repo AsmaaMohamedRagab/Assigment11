@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <main class="overflow-auto">
+        <section class="mt-5">
+            <div class="container py-5 px-5">
+                <h1 class="text-center">Smart Login System </h1>
+                <input type="text" class="form-control my-2 bg-transparent py-2 shadow-none d-none text-white"
+                    placeholder="Enter your name" id="name">
+                <input type="email" class="form-control my-3 bg-transparent py-2 shadow-none text-white"
+                    placeholder="Enter your email" id="mail">
+                <input type="text" class="form-control my-2 bg-transparent py-2 shadow-none text-white "
+                    placeholder="Enter your password" id="password">
+                <input type="text" class="form-control my-2 bg-transparent py-2 shadow-none d-none text-white"
+                    placeholder="Enter password" id="password1">
+                <p class="requires text-danger text-center d-none">All inputs are required</p>
+                <p class="seccess text-success text-center d-none">Success</p>
+                <p class="already text-danger text-center d-none">email already exists </p>
+                <p class="notexist text-danger text-center d-none">email or password not exist</p>
+                <button class="btn btn-outline-info w-100 my-3 loginbtn">Login</button>
+                <button class="btn btn-outline-info w-100 my-3 d-none signupbtn">Sign Up</button>
+                <p class="text-white text-center sign">Don’t have an account?<a
+                        class="text-white text-decoration-none signup"> Sign Up</a></p>
+                <p class="text-white text-center d-none log">Don’t have an account?<a
+                        class="text-white text-decoration-none login "> sign in</a></p>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/welcome.js"></script>
+    <script src="./JS/script.js"></script>
+
+
+</body>
+
+</html>
